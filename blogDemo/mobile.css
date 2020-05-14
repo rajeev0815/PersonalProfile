@@ -1,0 +1,477 @@
+@media only screen and (max-width:600px){
+
+        html {
+            font-size: calc(1em + 0.4vw);
+            font-family:monospace;
+            margin:0px;
+            padding:0px;
+            overflow-x:hidden;
+             }
+        
+        body{
+           width:100vw;
+           max-width:100%;
+            margin-top:0px;
+            background-color: white;
+            padding:0px;
+            overflow-x:hidden;
+            margin-bottom:0px;
+            margin-left:0vw;
+            margin-right:0vw;
+            }   
+        
+        nav{
+          
+           margin-top:0px;
+           max-width:100%;
+           overflow:hidden;
+           position:fixed;
+           top:0;
+           z-index: 1;
+           background-color:white;
+           box-shadow: 0 0.5em 0.4em -0.4em black;
+           transition:top 3sec;
+           width:100vw;
+        }
+        nav ul li:not(:first-child)
+         {
+             display: none;
+        }
+        nav ul li{
+            display:inline;
+        }
+ 
+    
+        .logo{
+           font-weight: bold;
+           font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           font-size:1.5em;
+        
+        }
+        .toggle{
+            float:right;
+            width:40px;
+            height:40px;
+            margin-right:10px;
+            
+        }
+        #top{
+           margin-top: 10vw;
+           background-color:	#FFA07A;
+           width:100%;
+           height:100vh
+        
+        }
+        #top> #main-pic>img{
+           width:90vw;
+           height:60vh;
+           margin-left:5vw;
+           margin-right:5vw;
+        }
+        #main-pic{
+            width:100vw;
+            max-width:100%;
+            height:60vw;
+        }
+        #top>#main-title{
+           text-align:center;
+           padding-top:2vw;
+           width:100vw;
+           height:40vh;
+           
+          
+        }
+        #main-title>a{
+           text-decoration: none;
+        
+        }
+        #main-title>a:hover{
+           text-shadow: 0.2em 0.2em black;
+           text-decoration: underline aqua;
+        
+        
+        }
+        #main-title>a>h2{
+           font-family:Arial, Helvetica, sans-serif;
+           font-weight:normal;
+           line-height:1.0em;
+           color:white;
+           text-shadow: 2px 2px black;
+           font-size:8vw;
+           height:20vh;
+           
+        }
+        #main-title>p{
+           width:70vw;
+           margin-left:15vw;
+           margin-right:15vw;
+           font-size:1em;
+           margin-top:1vw;
+           height:15vh;
+           color:white;
+           font-family: 'Courier New', Courier, monospace;
+           line-height:1.2em;
+           
+        }
+        #main-title>p>i, #main-title>p>#new1, #main-title>p>#new2{
+           border:1px solid black;
+           background-color: black;
+        }
+        #main-title>a>h2>strong{
+           font-style:italic ;
+        }
+        
+        #Archive-header{
+           border:1px solid black;
+        
+           padding:auto;
+           text-align: center;
+           background-color: #efefef;
+           width:5em;
+           margin:0px auto;
+           margin-bottom:30px;
+           background-color: black;
+           color:yellow;
+        }
+        
+        #Archive{
+           padding-left:auto;
+           padding-right:auto;
+           width:100%;
+           margin:0px auto;
+           background-color: white;
+           font-size:5vw;
+           
+            }
+        
+        #Archive>a>#archive-news{
+           width:80vw;
+           margin-left:10vw;
+           margin-right:10vw;
+           border-radius:10px;
+           border-radius:2px;
+           height:40vh;
+           margin-bottom:25px;
+        }
+        
+        #Archive>a>#archive-news>img{
+           width:100%;
+           height:25vh;
+        }
+        #archive-news>.link{
+  
+         height:3vh;
+      }
+      .link>p{
+         float:left;
+         margin-left:2px;
+         margin-top:-1px;
+         font-size:70%;
+         height:10px;
+      
+      }
+      .link>strong{
+         float:right;
+         color:#FFA07A;
+         text-decoration:underline;
+         font-size:80%;
+      }
+        #archive-news>#headline{
+           font-size:90%;
+           
+           font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           text-align:center;
+           background-color:white;
+           padding-bottom:10px;
+           color:grey;
+           font-weight: bold;
+        
+        
+        }
+        #Archive>a{
+           text-decoration: none;
+           color:black;
+        }
+        #Archive>a:hover>#archive-news,#Archive>a:hover>#archive-news>#headline{
+           background-color:#0084b1;
+           color:white;
+           text-shadow:2px 2px black;
+        }
+        #Popular{
+            border:1px solid black;
+            background-color: black;
+            width:100vw;
+            margin:0em 0em;
+        }
+        #popular-header{
+            border:1px solid black;
+            text-align:center;
+            color:greenyellow;
+            background-color: black;
+            margin-bottom:0px;
+            padding-bottom:20px;
+        }
+        #Popular-New{
+    
+        
+        width:100vw;
+        height:38vh;
+        margin-bottom:5vh;
+        
+        }
+        #Popular>a{
+            text-decoration: none;
+        }
+        #Popular>a:hover>#Popular-New>img, #Popular>a:hover>#Popular-New>p{
+            transform:scale(1.1);
+            color:darkorange;
+        }
+        #Popular-New>img{
+            width:60vw;
+            height:30vh;
+            margin-left:20vw;
+            margin-right:20vw;
+            box-shadow:5px 5px 10px #efefef;
+        
+        }
+        #Popular-New>p{
+            font-size:70%;
+            text-align:center;
+            color:white;
+            width:70vw;
+            margin-left:15vw;
+            margin-right:15vw;
+            font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        
+        }
+        #background-img{
+            background-image:url(about-us3.jpg);
+            background-repeat: no-repeat;
+            background-size:cover;
+            background-position:center;
+            width:100%;
+            height:700px;
+            transition:background-image 2sec;
+        }
+        #about-header{
+           text-align:center;
+           border:1px solid black;
+           width:80%;
+           font-size:140%;
+           background-color:	rgba(211,211,211,0.5);
+           transform:translate(15%,40%);
+        }
+        
+        #writing>.right{
+           height:70vh;
+           background-color:white;
+           text-align:center;
+        }
+        
+        #writing>.right>p{
+           line-height:1.6em;
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+            width:90%;
+            margin:auto;
+            padding-top:5vw;
+            font-size:6vw;
+         
+        }
+            
+        #writing>#about-team{
+            background-color:white;
+        }
+        
+        #about-team>#overlay-img>img{
+           width:60vw;
+           height:60vw;
+           margin-top:50px;
+           margin-left:20vw;
+           margin-right:20vw;
+           border:1px solid #efefef;
+           box-shadow:8px 8px 20px black;
+           border-radius:10px;
+           margin-bottom:-30px;
+           
+        }
+        #about-team>.new-paragraph{
+           background-color:lightseagreen;
+           color:white;
+           font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           height:70vh;
+           width:100vw;
+           max-width:100%;
+           padding-top:40px;
+        }
+        #about-team>.new-paragraph>p{
+           width:70vw;
+           margin-left:15vw;
+           line-height:1.4em;
+          
+        
+        }
+        #about-team>.new-paragraph>h2{
+           
+           margin-left:10vw;
+           width:80vw;
+           border:1px solid black;
+           text-align:center;
+           background-color:black;
+           color:white;
+           font-size:110%;
+        }
+        #Sign-me1{
+           width:100vw;
+           max-width:100%;
+           margin-top:0px;
+           background-color:#ffd500;
+           height:70vh;
+        
+        }
+        #Sign-me1>div{
+           background-color:#ffd500;
+        }
+        #Sign-me1-1{
+           padding-left:20px;
+           font-size:5vw;
+           margin-top:0px;
+           height:40vh;
+        
+        }
+        #Sign-me1-1>p{
+           font-size:80%;
+        }
+        #Sign-me1-2{
+           font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+           text-align: center;
+           margin-top:0px;
+        }
+        #Sign-me1-2>label>input{
+           width:80vw;
+           height:5vh;
+           border:1px solid lightskyblue;
+           border-radius:20px;
+        }
+        #Sign-me1-2>button{
+           width:120px;
+           height:40px;
+           border-radius: 20px;
+           margin-top:30px;
+           font-size:70%;
+           background-color:orangered;
+           border:1px solid red;
+           color:white;
+           cursor: pointer;
+        }
+        #email-not{
+           text-align:center;
+           font-family:arial,helvetica;
+           font-size:110%;
+           background-color:white;
+           margin-top: 0px;
+           border:1px solid white;
+        }
+        #email-not>p{
+           font-size:80%;
+           line-height:2.0;
+           width:70%;
+           margin:0px auto;
+        }
+        #Sign-me2{
+           background-color: white;
+           width:100vw;
+           max-width:100%;
+           margin-bottom:0px;
+        
+        }
+        #Sign-me2>div{
+         
+           padding-top:20%;
+           text-align:center;
+        }
+        #Sign-me2>div>h1{
+           margin-top:0%;
+        }
+        #Sign-me2>div>p{
+           font-size:3vw;
+           width:80vw;
+           color:grey;
+           line-height:2.0em;
+           margin-left:10vw;
+           margin-right:10vw;
+        }
+        #Sign-me2>#first-div{
+            max-width:100%;
+           width:100vw;
+           
+        }
+        
+        #Sign-me2>#second-div{
+           max-width:100%;
+           width:100vw;
+        
+        }
+        #Sign-me2>div>img{
+           width:60vw;
+           height:60vw;
+           margin-left:20vw;
+           margin-right:20vw;
+           box-shadow:8px 8px 20px black;
+           border-radius:50%;
+        }
+        #follow-us{
+           background-color: white;
+           margin-top:0px;
+           width:100vw;
+           max-width:100%;
+        }
+        #follow-us>ul{
+           padding:20px;
+           width:90vw;
+           margin-left:5vw;
+           margin-right:5vw;
+           display:flex;
+           align-items : center;
+           justify-content: space-around;
+        }
+        #follow-us>ul>li {
+           display:inline;
+        
+        }
+        #follow-us>ul>li>a>img{
+           width:10vw;
+           height:10vw;
+           box-shadow:3px 3px 6px #efefef;
+        
+        }
+        #Sign-me3{
+           height:50vw;
+           background-color: #340034;
+           color:white;
+           padding-top:1%;
+           margin-bottom:0px;
+           font-family: Georgia, 'Times New Roman', Times, serif;
+           font-size:3vw;
+           padding-left:1%;
+        }
+        #Sign-me3>ul{
+            display:flex;
+            align-items : center;
+            justify-content: space-around;
+        }
+        #Sign-me3>ul>li{
+           display:inline;
+        }
+        #Sign-me3>ul>li>a{
+           text-decoration: none;
+           font-weight: bold;
+           color:white;
+        
+        }
+        #Sign-me3>ul>li>a:hover{
+           text-decoration: underline black;
+           color:black;
+        }
+        
+}
