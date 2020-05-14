@@ -1,0 +1,295 @@
+html{
+    font-size: calc(0.8+ 0.4vw);
+    margin:0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+width:100%;
+margin:0px;
+margin-top:0px;
+}
+
+#top{
+    width:99%;
+    height:700px;
+    margin-top:10px;
+    margin-left:0.5%;
+    margin-right:0.5%;
+    background-image: url(WW-top.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color:white;
+    border:1px solid black;
+
+}
+#top>svg{
+    margin-top:-300px;
+}
+#title{
+    width:600px;
+    margin-left:250px;
+    margin-top:100px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:300%;
+    text-align:center;
+}
+#title>h1{
+    border-bottom:5px solid goldenrod;
+    width:95%;
+}
+#title>h2{
+  
+    width:90%;
+    margin-top:-50px;
+}
+.lineOne,.lineTwo, .lineThree,.lineFour{
+stroke:#efefef;
+stroke-width:5;
+opacity:0.4;
+
+}
+#middle{
+    height:800px;
+    width:99%;
+    margin-left:0.5%;
+    margin-right:0.5%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+
+}
+#middleOne{
+    width:50%;
+    height:800px;
+    text-align:left;
+
+}
+#middleOne>h1{
+    font-size:350%;
+    width:60%;
+    margin-left: 20%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#6B8E23;
+}
+#middleOne>h1>span{
+    background-color:	#D4AF37;
+    
+}
+#middleOne>p{
+    width:80%;
+    margin-left:10%;
+    font-size:140%;
+    line-height:2.0em;
+    margin-top:10%;
+
+}
+#middleOne>p> .alter{
+   border:4px solid rgb(3, 73, 3);
+    font-size:250%;
+    background-color: rgb(3, 73, 3);
+    width:100px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+}
+#middleTwo{
+
+    width:50%;
+    height:800px;
+
+}
+#middleTwo>#imgOne{
+ 
+    height:350px;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+
+
+}
+#imgOne>.imgFirst{
+    width:320px;
+    height:320px;
+    background-image: url(WW-exp.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#imgOne>.imgSecond{
+    width:230px;
+    height:230px;
+  
+    margin-bottom: -180px;
+    background-image: url(WWlab.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#middleTwo>#imgTwo{
+  
+    height:450px;
+}
+#imgTwo>.imgThird{
+    width:400px;
+    height:500px;
+    margin-bottom:-50px;
+    position: relative;
+    background-image: url(WWandJP2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+#section{
+    height:700px;
+ 
+    width:99%;
+    margin-left:0.5%;
+    margin-right:0.5%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+
+}
+#sectionOne{
+    width:50%;
+    height:500px;
+    position:relative;
+    margin-right:-20%;
+    background-image: url(yellow.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#sectionOne>.next{
+    width:120px;
+    height:50px;
+   
+    float:right;
+    margin-top:230px;
+    margin-right:20px;
+    cursor:pointer;
+    background-color: transparent;
+    color:black;
+    font-weight: bold;
+    box-shadow: 4px 4px 4px green;
+
+
+}#sectionOne>.next:hover{
+    width:120px;
+    height:50px;
+    border:1px solid black;
+    float:right;
+    margin-top:230px;
+    margin-right:20px;
+    cursor:pointer;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    box-shadow: 4px 4px 4px green;
+
+}
+#sectionTwo{
+
+    width:70%;
+    height:700px;
+    background-image:linear-gradient(black,green,black) ;
+    text-align:center;
+    
+
+}
+#sectionTwo>div{
+   
+    margin-top:20%;
+    margin-left:40%;
+    width:50%;
+    color:white;
+    line-height: 1.6em;
+    font-family:monospace;
+    font-size: 170%;
+}
+#sectionTwo>div>span{
+
+    color:black;
+    font-size:300%;
+
+}
+
+#bottom{
+    height:800px;
+ 
+    width:99%;
+    margin-left:0.5%;
+    margin-right:0.5%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+
+
+}
+#walter{
+ 
+    letter-spacing:0.3em;
+    font-size:600%;
+    font-family: 'Times New Roman', Times, serif;
+    width:80%;
+    color:#efefef;
+    opacity:0.9;
+    z-index:0;
+    margin-bottom:-250px;
+    transform:skewY(20deg);
+}
+
+#bottomOne{
+width:45%;
+height:700px;
+
+z-index:1
+
+}
+#bottomOne>h1{
+    font-size:350%;
+    width:80%;
+    margin-left: 20%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#6B8E23;
+}
+#bottomOne>ul>li{
+    margin-bottom:30px;
+    font-size:120%;
+    line-height: 1.4em;
+    text-decoration:underline #FF7F50 ;
+    color:darkgreen;
+}
+
+#bottomTwo{
+width:100px;
+height:100px;
+
+transform:rotate(45deg);
+margin-right:-124px;
+background-color: black;
+z-index:2;    
+color:white;
+
+}
+#bottomTwo>img{
+    width:100px;
+    height:100px;
+    transform:rotate(-45deg);
+    margin-top:10px;
+    margin-left:5px;
+}
+
+#bottomThree{
+width:40%;
+height:600px;
+
+background-image: url(WW-empire.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size:cover;
+z-index:1;
+}
+
