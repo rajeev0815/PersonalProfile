@@ -1,0 +1,152 @@
+@media only screen and (max-width:600px) {
+html{
+    font-size: calc(0.8+ 0.4vw);
+    margin:0px;
+    font-family:Arial, Helvetica, sans-serif;
+    width:100vw;
+}
+
+body{
+width:100vw;
+margin:0px;
+background-color: #fafafa;
+margin-bottom:50px;
+
+
+
+}
+#header{
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+}
+#header>#left-title{
+    line-height:0.4em;
+    width:90vw;
+    padding-left:10px;
+    padding-top:10px;
+}
+#header>#left-title>h1{
+    width:90vw;
+    font-size: 150%;
+}
+
+#header>#right-button{
+    width:100vw; 
+    font-size:3vw;
+    display:flex;
+    flex-direction:row;
+       align-items:center;
+       justify-content: space-around;
+
+}
+#right-button>#theme-switcher{
+    border:1px solid grey;
+    border-radius: 15px;
+    width:50px;
+    height:22px;
+    background-color: grey;
+    cursor: pointer;
+}
+#theme-switcher>div{
+    height:18px;
+    width:18px;
+    border:1px solid white;
+    border-radius:50%;
+    margin-top:1px;
+    margin-left:2px;
+    background-color:white;
+    float:left;
+}
+
+
+#bigBoard>#boxes{
+    border-radius:5px;
+    width:90vw;
+    margin-left:5vw;
+    margin-right:5vw;
+    height:30vh;
+    margin-bottom:5vh;
+
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-around;
+    background-color: #f3f3f3;
+    
+
+
+}
+
+#topBoxes{
+   
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    width:120px;
+
+}
+#topBoxes>img{
+    width:25px;
+    height:25px;
+}
+#boxes>#middleBoxes{
+    line-height:0.2em;
+    text-align:center;
+
+
+}
+#boxes>#middleBoxes>h1{
+    font-size:350%;
+}
+#boxes>#middleBoxes>p{
+    font-size:80%;
+    letter-spacing:0.2em;
+}
+#bottomBoxes>span{
+    font-size:90%;
+}
+
+
+
+#smallBoard>#smallBoxes{
+    background-color: #f3f3f3;
+    width:90vw;
+    margin-left:5vw;
+    margin-right:5vw;
+    height:20vh;
+    margin-bottom:5vh;
+}
+#overview{
+    width:100vw;
+    text-align:center;
+}
+
+#smallBoxes>#smallbox-Top{
+   
+    height:10vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    flex-direction:row;
+
+}
+#smallbox-Top>p{
+    font-size:120%;
+}
+#smallbox-Top>img{
+    height:25px;
+    width:25px;
+}
+#smallBoxes>#smallbox-bottom{
+    height:10vh;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    flex-direction:row;
+
+}
+#smallbox-bottom>h2{
+    font-size:200%;
+}
+}

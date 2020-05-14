@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Restaurant Theme</title>
+        <link rel="stylesheet" type="text/css" href="mobile.css">
+        <link rel="stylesheet" type="text/css" href="desktop.css">
+    </head>
+
+    <body>
+        <div  id="top-theme">
+            <h1>food orchestra</h1>
+            <div id="top-title"><h1>Exquisite dining since 1989</h1>
+            <p>Experience our seasonal menu in 
+                beautiful country surroundings.Eat the freshest products
+                from the comfort of our farmhouse.
+            </p>
+            <button><b>BOOK A TABLE</b></button>
+        </div>
+        </div>
+
+        <div id="description-page">
+            <div id= "img-desc"><img src="location.jpg" class="img-above"></div>
+            <div id= "para-desc"><h1>Set in a beautiful place</h1>
+                <p>One of the first steps in choosing a restaurant location is finding out if the building is up to code.
+                     Does it have proper wiring, fire alarms, sprinkler systems, handicap-accessible doors, restrooms, ramps?</p>
+                </div>
+            <div id= "para-desc"><h1>Made by Local Chefs...</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable 
+                content of a page when looking at its layout. The point of using</p>
+            </div>
+            <div id= "img-desc"><img src="chef.jpg" class="img-below"></div>
+        </div>
+
+        <div id="menu-bar">
+            <div id= "menu-title"><h1>A few highlights from our menu</h1>
+                <p>It is a long established fact that a reader will be distracted by the readable 
+                    content of a page when looking at its layout. The point of using</p>
+                </div>
+            <div id= "menu-recipe">
+                <div id="new-recipe">
+                    <img src="spaghetti.jpg">
+                    <div><h2>Shaolin Spaghetti</h2>
+                        <p>It is a long established fact that a reader will be distracted by the readable 
+                            content of a page when looking at its layout.</p>
+
+                    </div>
+                </div>
+                <div id="new-recipe"><img src="egg-sandwich.jpg">
+                    <div><h2>Egg-Sandwich & Co.</h2>
+                        <p>It is a long established fact that a reader will be distracted by the readable 
+                            content of a page when looking at its layout.</p>
+
+                    </div>
+                </div>
+                <div id="new-recipe"><img src="coffee.jpg">
+                    <div><h2>Morning Espresso</h2>
+                        <p>It is a long established fact that a reader will be distracted by the readable 
+                            content of a page when looking at its layout.</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="family-gathering">
+            <div id= "img-family"></div>
+            <div id= "gathering-choice"><h1>Beautiful Gathering</h1>
+                                        <p>It is a long established fact that a reader will be distracted by the readable 
+                                            content of a page when looking at its layout.</p>
+                                        <button>BOOK A TABLE</button>
+
+                                        <div> <svg width="200" height="5"><line x1="0" y1="1" x2="150" y2="1" style="stroke:rgb(255,0,0);"/>
+                                        </svg> <span class="Target newTarget1">Healthy Breskfast</span>
+
+                                        <svg width="200" height="5"><line x1="0" y1="1" x2="150" y2="1" style="stroke:rgb(255,0,0);"/>
+                                        </svg> <span class="Target newTarget2">Delicious Cheese Pizza</span>
+
+                                      <svg width="200" height="5"><line x1="0" y1="1" x2="150" y2="1" style="stroke:rgb(255,0,0);"/>
+                                        </svg> <span class="Target newTarget3">Beautiful Gathering</span>
+                                    </div>
+                                        
+            </div>
+        </div>
+
+        <div id="Reservation">
+            <h1>Still waiting to book the table?</h1>
+            <button>BOOK THE TABLE</button>
+        </div>
+
+        <div id="last-page">
+            <h1 style="width:400px;">food orchestra</h1>
+            <p style="width:400px;" class="address"> <b>Google India Pvt. Ltd, Block 1, DivyaSree Omega, Survey No. 13,
+                 Kondapur Village, Hyderabad, Andhra Pradesh, India.</b></p>
+            <p style="width:400px;"><b>Open times<br/>
+                Moday-friday:9:00AM - 5:00PM <br/>SAT-SUN : Closed</b></p>
+        </div>
+        <script>
+           let gatherH = document.querySelector("#gathering-choice h1");
+           let gatherP = document.querySelector("#gathering-choice p");
+           let TargetOne = document.querySelector(".newTarget1");
+           let TargetTwo = document.querySelector(".newTarget2");
+           let TargetThree = document.querySelector(".newTarget3");
+           let gatherImg = document.querySelector("#img-family");
+
+           TargetOne.onmouseover = function(){
+                gatherH.textContent="Healthy Breakfast";
+                gatherP.textContent="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout";
+                gatherImg.style.backgroundImage = "url(breakfast.jpg)";
+       
+
+           }
+           TargetTwo.onmouseover = function(){
+                gatherH.textContent="Delicious Cheese Pizza";
+                gatherP.textContent="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout";
+                gatherImg.style.backgroundImage = "url(pizza.jpg)";  
+          
+           }
+           TargetThree.onmouseover = function(){
+                gatherH.textContent = "Beautiful Gathering";
+                gatherP.textContent="It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout";
+                gatherImg.style.backgroundImage = "url(tablefood.jpg)"; 
+       
+           }
+        
+
+        </script>
+    </body>
+</html>

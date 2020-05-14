@@ -1,0 +1,207 @@
+@media only screen and (max-width:600px) {
+
+    html {
+        font-size: calc(0.8+ 0.4vw);
+        margin:0px;
+        overflow-x:hidden;
+        padding:0px;
+        }
+    p{
+        font-size:4vw;
+    }
+
+body{
+margin:0px;
+padding:0px;
+overflow-x:hidden;
+}
+    #top-theme{
+        margin-top:0px;
+        background-image: url(main-top-copy.jpg);
+        width:100vw;
+        max-width:100%;
+        height:auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+        color:white;
+        margin-bottom:20px;
+    }
+    #top-theme>h1{
+
+border:2px solid aqua;
+margin-top:2%;
+margin-left:5%;
+width:300px;
+text-align:center;
+    }
+    #top-theme>#top-title{
+
+width:90%;
+text-align: center;
+margin-left:auto;
+margin-right:auto;
+margin-top:5%;
+
+}
+#top-title>p{
+        line-height:2.0em;
+        font-family:'Times New Roman', Times, serif;
+    }
+    #top-title>button{
+        border:2px solid white;
+        width:100px;
+        height:40px;
+        color:white;
+        background-color: transparent;
+        cursor:pointer;
+        margin-bottom:20px;
+    }
+    #top-title>button:hover{
+        border:2px solid black;
+        width:120px;
+        height:50px;
+        color:black;
+        background-color:white;
+
+    }
+    #img-desc>img{
+        width:80vw;
+        max-width:80%;
+        height:auto;
+        position:relative;
+        margin-left:auto;
+        margin-right:auto;
+        margin-left:10%;
+        margin-right:10%;
+        box-shadow:10px -10px 30px #efefef;
+    }
+
+#para-desc{
+    text-align:center;
+    background:rgba(220,220,220,0.5);
+    width:90vw;
+    height:50vh;
+    margin-top:10%;
+    margin-left:5vw;
+    margin-left:5vw;
+    border-radius:20px 0px;
+
+}
+#para-desc>p{
+    font-size:5vw;
+    line-height:1.7em;
+}
+#menu-bar{
+    height:90vh;
+    color:white;
+    background-color: #000014;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+#menu-bar>#menu-title{
+    width:100%;
+    height:30vh;
+    padding-left:20px;
+
+}
+
+
+#menu-recipe>#new-recipe{
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    height:20vh;
+    width:100%;
+    
+
+}
+#new-recipe>div{
+    width:80vw;
+}
+#new-recipe>div>p{
+    margin-top:-5px;
+    line-height:1.5em;
+    font-size:3vw;
+}
+#new-recipe>img{
+    height:18vw;
+    width:20vw;
+    margin-right:10px;
+}
+#family-gathering>#img-family{
+
+    width:100%;
+    height:50vh;
+    background-image:url(tablefood.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin-top:20px;
+
+
+}
+#family-gathering>#gathering-choice{
+               
+    width:90%;
+    height:40vh;
+    text-align:center;
+    line-height:2.0em;
+    margin-left:10%;
+}
+#gathering-choice>button{
+    height:40px;
+    width:25vw;
+    color:white;
+    background-color: black;
+    margin-top:10%;
+
+
+}
+#gathering-choice>div{
+             
+    display:none;
+}
+#Reservation{
+              
+    background-image:url(black.jpg);
+    width:100%;
+    height:20vh;
+    color:white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    text-align:center;
+}
+#Reservation>button{
+    border:2px solid white;
+        width:30vw;
+        height:40px;
+        color:white;
+        background-color: transparent;
+        cursor:pointer;
+    
+    }
+    #last-page{
+           
+        height:20vh;
+        background-color:purple;
+        font-family:Arial, Helvetica, sans-serif;
+        color:white;
+        line-height:2.0em;
+        text-align:center;
+        width:100%;
+    }
+    #last-page>h1{
+        display:none;
+    }
+    #last-page>.address{
+        display:none;
+    }
+
+
+
+}
