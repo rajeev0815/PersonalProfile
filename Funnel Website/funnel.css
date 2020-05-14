@@ -1,0 +1,399 @@
+
+   
+   @media only screen and (min-width:600px){
+       html {
+        font-size: calc(1em + 0.4vw);
+        font-family:monospace;
+        margin:0px;
+        padding:0px;
+        width:100vw;
+         }
+    
+    body{
+       width:100vw;
+        margin:0;
+        padding:0px;
+        overflow-x:hidden;
+        background-color: white;
+      }  
+
+    header{
+        width:100vw;
+        height:10vh;
+        background-color: white;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: Georgia, serif;
+    }
+
+    header>img{
+        width:15vw;
+        height:10vh;
+    }
+    header>#subscribe_head{
+        width:50vw;
+        height:10vh;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #subscribe_head>button{
+        background-color: yellow;
+                width:280px;
+                height:45px;
+                border-radius:20px;
+                font-size:1.4vw;
+                border:1px solid yellow;
+
+    }
+    #top{
+        width:90vw;
+        margin-left:5vw;
+        margin-right:5vw;
+        height:700px;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #top>#left_top{
+        width:40vw;
+        height:550px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    #left_top>p{
+        font-size:1.7vw;
+        width:33vw;
+        color:grey;
+        line-height:1.4em;
+
+    }
+    #top>#right_top{
+        width:50vw;
+    
+        height:700px;
+
+    }
+    #right_top>iframe{
+        margin-top:-450px;
+        z-index:2;
+        margin-left:7vw;
+        box-shadow:5px 5px 5px 5px grey;
+        border:3px solid black;
+        width:500px;
+        height:300px;
+    }
+    #leftButton{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        width:30vw;
+
+    }
+    #leftButton>button{
+        background-color: #0080ff;
+        width:180px;
+        height:40px;
+        border-radius:5px;
+        font-size:1.2vw;
+        color:white;
+        border:1px solid #0080ff;
+    }
+    #socialmedia{
+        width:300px;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top:50px;
+
+    }
+    #socialmedia>img{
+        width:40px;
+        height:40px;
+    }
+    #middleTab{
+        width:90vw;
+        margin-left:5vw;
+        margin-right: 5vw;
+        height:600px;
+        background-color:black;
+        color:white;
+        font-family:Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+    }
+    #middleTab>h1{
+        font-size:180%;
+        text-align:center;
+        padding-top:30px;
+
+    }
+    #middleForm{
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+    #leftForm{
+        width:25vw;
+        height:450px;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+     
+
+
+    }
+    #leftForm>div{
+        width:250px;
+        height:250px;
+        margin-top:10px;
+        border-radius:50%;
+        background-image: url(profile.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #rightForm{
+        width:60vw;
+        height:550px;
+
+
+    }
+    #rightForm>.introMiddle{
+        font-size:1.4vw;
+        text-align:center;
+        line-height:1.3em;
+        margin-bottom:80px;
+
+    }
+    #rightForm>input{
+        width:22vw;
+        height:35px;
+        border-radius:5px;
+        font-family:'Times New Roman' serif;
+        padding-left:10px;
+        font-size:16px;
+        margin-left:40px;
+       
+
+    }
+    #rightForm>.middleButton{
+        background-color: orange;
+        width:280px;
+        height:45px;
+        border-radius:5px;
+        margin-left:20vw;
+        font-size:1.2vw;
+        color:white;
+        border:1px solid orange;
+
+    }
+    #doBottom{
+        width:90vw;
+        margin-left:5vw;
+        margin-right:5vw;
+        height:300px;
+        text-align:center;
+        font-family: 'Times New Roman', Times, serif;
+        color:#484848;
+        margin-top:30px;
+    }
+    #doBottom>button{
+        background-color: #cd3232;
+          width:700px;
+          height:50px;
+          border-radius:5px;
+          margin-left:5vw;
+          font-size:1.4vw;
+          color:white;
+          border:1px solid #cd3232;
+
+    }
+    #smallDiv{
+        width:100vw;
+        height:200px;
+        margin-top:20px;
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+        
+     
+    }
+    #smallDiv>div{
+        width:20vw;
+       font-size:70%;
+       text-align: center;
+        font-family:'Times New Roman', Times, serif;
+        
+    }
+    #smallDiv>div>img{
+        width:130px;
+        height:130px;
+        border:2px dotted #ff0075;
+
+    }
+    #smallDiv>div>h2{
+        color:#676767;
+        border-bottom:3px solid #cd3232;
+    }
+    #smallDiv>div>p{
+        line-height:1.6em;
+        color:#484848;
+    }
+    #DoDont{
+        width:80vw;
+        margin-top:100px;
+        height:400px;
+        margin-left:10vw;
+        margin-right:10vw ;
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+        font-family:'Times New Roman', Times, serif;
+
+
+    }
+    #Do{
+        width:45vw;
+        background-color:#0080ff;
+        height:400px;
+        position:relative;
+        padding-left:20px;
+        color:white;
+        border-radius:5px;
+
+    }
+    #Do>p>img{
+        width:20px;
+        height:20px;
+        margin-right:5px;
+    }
+    #Do>button{
+        background-color: #32cd32;
+          width:220px;
+          height:40px;
+          border-radius:5px;
+          margin-left:5vw;
+          font-size:1.4vw;
+          color:white;
+          border:1px solid #32cd32;
+
+    }
+    #Dont{
+        width:30vw;
+        height:400px;
+        padding-left:20px;
+        background-color:#ff0075 ;
+        color:white;
+        border-radius: 5px;
+    }
+
+    #Dont>p>img{
+        width:20px;
+        height:20px;
+
+    }
+   
+    #fakeNews{
+        height:auto;
+        width:100vw;
+        font-family:'Times New Roman', Times, serif, sans-serif;
+        text-align:center;
+        font-size:120%;
+    }
+    #fakeNews>button{
+        background-color:#0080ff;
+          width:700px;
+          height:50px;
+          border-radius:5px;
+          font-size:1.4vw;
+          color:white;
+          border:1px solid #0080ff;
+
+    }
+    #fakeNews>ol{
+        line-height:1.7em;
+        margin-left:25vw;
+        text-align: left;
+        border-left:4px solid #0080ff;
+    }
+    #coldEmails{
+        width:100vw;
+        height:700px;
+        font-family:  'Times New Roman', serif;
+        font-size:110%;
+    }
+    #newdiv{
+        margin-left:30vw;
+        margin-top:100px;
+        width:40vw;
+        height:400px;
+    
+    }
+    #modalPage{
+        width:100vw;
+        height:100vw;
+        display:none;
+        background-color: rgba(0, 0, 0, 0.6);
+        position:fixed;
+    }
+    #SignIn{
+        width:70vw;
+        margin-top:50px;
+        margin-left:15vw;
+        margin-right:15vw;
+        font-family:Times, serif;
+        box-shadow:10px 10px 10px grey;
+        z-index:1;
+        background-color: white;
+        position:fixed;
+    }
+    #SignIn>p>img{
+        float:right;
+        width:30px;
+        height:30px;
+        margin-right:5px;
+        margin-top: 5px;
+        cursor:pointer;
+    }
+    #SignIn>div{
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    #SignIn>div>ol{
+        width:35vw;
+        line-height:2.0em;
+        font-size:102%;
+        font-family: 'Times New Roman', serif;
+    }
+    .formFill{
+        width:35vw;
+        margin-left:50px;
+    }
+    .enterInput{
+        width:20vw;
+        height:35px;
+        border-radius:5px;
+        box-shadow:5px 5px 5px #484848;
+    }
+    .formButton{
+        background-color: orange;
+        width:280px;
+        height:45px;
+        border-radius:5px;
+        font-size:1.4vw;
+        color:white;
+        border:1px solid orange;
+    }
+
+    #newDiv>.coldEmailMedia{
+        width:300px;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top:50px;margin-left:50px;
+
+    }
+}
