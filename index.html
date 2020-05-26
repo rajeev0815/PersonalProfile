@@ -4,39 +4,48 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Personal Profile</title>
+        <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital@1&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital@1&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Lobster&display=swap" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="index.css">
-        <link rel="stylesheet" type="text/css" href="mobile.css">
+        <link rel="stylesheet" type="text/css" href="newIndex.css">
+        <link rel="stylesheet" type="text/css" href="newMobile.css">
     </head>
 
     <body>
+        <div id="navBar" style="display:none;">
+            <ul class="ulBig">
+                <li><a href="" data-text="Home">Home</a></li>
+                <li><a href="" data-text="About">About</a></li>
+                <li><a href="" data-text="Portfolio">Portfolio</a></li>
+                <li><a href="" data-text="Services">Services</a></li>
+                <li><a href="" data-text="Team">Team</a></li>
+                <li><a href="" data-text="Contact">Contact</a></li>
+            </ul>
+            </div>
         <section id="Home">
-                <nav>
-                    <ul>
-                        <a href="#"><li>Home</li></a>
-                        <a href="#About"><li>About</li></a>
-                        <a href="#portfolioHeader"><li>Portfolio</li></a>
-                        <a href="#contactHeader"><li>Contact</li></a>
-                    </ul>
-                </nav>
-            <div>
-            <div id="homeTitle">
-                <h1>Always put a smile on your face.</h1>
-                <p style="color:var(--my-color3);">Hi, I am <span style="color:var(--my-color7);">Rajeev</span>. <br/>A front-end Web Developer</p>
+            <header>
+            <button id="hamburgerButton" onclick="disappear()">
+                <span class="hamMenu"></span>
+                <span class="hamMenu"></span>
+                <span class="hamMenu"></span>
+                </button>
+            </header>
+            <div class="UIcard">
+                <img />
+                <div class="MyIntro">
+                <p>RAJEEV RAI</p>
+                <P>Front-End Web Developer</p>
+                </div>
+                <p class="fullIntro">This is my Official Portfolio.<br/>
+                    I build Landing Pages, Social Media dashboard,
+                    Contact Forms, Outlook email card,etc.
+                    If your business needs a website, don't go to
+                    Wix.com .Contact me and I will build a website for you.
+                    </p>
+                <p class="socialMedia">HTML5 | CSS3 | Javascript | JQuery | Bootstrap</p>
             </div>
-            <div class="movingImg">
-            <span>
-                <img src="html5.png" class="firstImg" /></span>
-
-            <span>
-                <img src="css3.png" class="secondImg"/></span>
-            <span>
-                <img src="javascript.png" class="thirdImg" />
-            </span>
-            </div>
-        </div>
+               
         </section>
 
         <section id="About">
@@ -68,7 +77,7 @@
                     <h3>How can you hire me?</h3>
                     <p>You can purchase my gigs on Fiverr
                         or send me an email.All the info. is 
-                        provided on <a href="#contactHeader">Contact Page.</a>
+                        provided on <a href="#Contact">Contact Page.</a>
                     </p>
                 </div>
             </div>
@@ -80,7 +89,7 @@
         <section id="profile">
             <aside>
                 <div class="profileTop first" style="border:1px solid #efefef;">
-                   <a href="Funnel Website/funnel.html"> <img style="background-image: url('landingPage.png');" /></a>
+                   <a href=""> <img style="background-image: url('landingPage.png');" /></a>
                     <h1>Landing Page Design</h1>
                     <p>Hi,This is a<span style="color:green;"> highly convertible </span>Landing Page.If you 
                         have a product, business idea,then a Landing Page can 
@@ -93,7 +102,7 @@
                 </div>
 
                 <div class="profileLast" style="border:1px solid #efefef;text-align:center;">
-                    <a href="Tribute Page/tribute.html"> <img style="background-image: url('tribute.png');" /></a>
+                    <a href=""> <img style="background-image: url('tribute.png');" /></a>
                      <h1>Tribute Page</h1>
                      <p>Pop-culture heroes have become 
                          idol for most people now.I have given a tribute
@@ -109,7 +118,7 @@
             
             <aside>
                 <div class="profileTop second" style="border:1px solid #efefef;">
-                    <a href="blogDemo/blogDemo.html"> <img style="background-image: url('blog.png');" /></a>
+                    <a href=""> <img style="background-image: url('blog.png');" /></a>
                     <h1>Demo Blog Design</h1>
                     <p>Everybody loves to share ideas.Wordpress,Blogger,Medium
                         are some of the best blogging sites.
@@ -126,7 +135,7 @@
                 </div>
 
                 <div class="profileLast" style="border:1px solid #efefef;text-align:center;">
-                    <a href="Survey/survey.html"> <img style="background-image: url('survey.png');" /></a>
+                    <a href=""> <img style="background-image: url('survey.png');" /></a>
                      <h1>Survey Form Design</h1>
                      <p>Check out this survey Form.Its a basic survey 
                          form design, but you can get
@@ -138,7 +147,7 @@
 
             <aside>
                 <div class="profileTop Third" style="border:1px solid #efefef;">
-                    <a href="Restaurant Theme/restro.html"><img  style="background-image: url('location.jpg');" /></a>
+                    <a href=""><img  style="background-image: url('location.jpg');" /></a>
                     <h1>Restaurant Theme</h1>
                     <p>Who doesn't like to book a table 
                         in a Restaurant?<br/><span style="color:darkblue;">Couples Date,family gatherings,
@@ -149,7 +158,7 @@
 
                 <div class="profileMiddle3"
                  style="border:1px solid #efefef;text-align:center;">
-                    <a href="Dashboard/dashboard.html"> <img style="background-image: url('dashboard.png');" /></a>
+                    <a href=""> <img style="background-image: url('dashboard.png');" /></a>
                     <h1>Social Media Dashboard</h1>
                     <p>Do you check your social media updates
                         every few minutes.Well,You can<span style="color:darkorange;"> track your social media 
@@ -188,6 +197,31 @@
             </div>
 
         </section>
+
+        <script>
+            let ham = document.querySelector('#hamburgerButton');
+            let body =  document.querySelector('body');  
+            let nav =  document.querySelector('#navBar'); 
+            let UlBig =  document.querySelector('.ulBig'); 
+
+
+    
+            function disappear(){
+                if(nav.style.display=="none"){
+                nav.style.display = "flex";
+                body.style.overflowY = "hidden";
+                ham.removeAttribute("id");
+                ham.setAttribute("class","makeHam");
+
+                }
+                else{
+                nav.style.display = "none";
+                ham.removeAttribute("class");
+                ham.setAttribute("id" ,"hamburgerButton");
+                body.style.overflowY = "visible";
+            }
+            }
+        </script>
               
 
     </body>
